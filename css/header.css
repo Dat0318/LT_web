@@ -1,0 +1,101 @@
+/* All */
+.header{
+	background-image: url("../image/employee/background.jpeg");
+	background-repeat: repeat;
+	height: 100px;
+	position: relative;
+}
+.header .avata-header{
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+.header .avata-header img{
+	width: 100px;
+	height: 89%;
+	margin-left: 42px;
+	border-radius: 50%;
+}
+/* Search */
+.header .search{margin-left: 200px;margin: 19px;position: absolute;left: 150px;}
+.header .search #search{
+
+}
+.header .search .result{
+    position: absolute;
+    z-index: 1;
+    top: 41px;
+    left: 2px;
+    /* border: 1px solid #111; */
+    width: 100%;
+    }
+.header .search .result p{
+    margin: 0;
+    padding: 7px 10px;
+    border: 1px solid #1794cc;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    background: #e8eaea;
+    }
+.header .search .result p:hover{
+    background: #f2f2f2;
+    }
+ /* Infor user */
+.header .infor-user{
+    float: right;
+    margin-right: 78px;
+    color: #FFF;
+    display: flex;
+    margin-top: 13px;
+}
+ .header .infor-user::after{
+    content: " ";
+    display: block;
+    clear: both;
+ }
+.header .infor-user h4{
+    padding: 12px;
+}
+.header .infor-user img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+.header .infor-user a{
+    margin-top: 17px;
+    height: 31px;
+    padding: 2px 7px;
+    border:1px solid #5266FB;
+    border-radius: 15px;
+    background-color: #5266FB;
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFF;
+  }
+/* Pop up */
+.modal{}
+.modal .modal-content{
+    border: 1px solid #007bff;
+}
+.modal .modal-content .modal-header{}
+.modal .modal-content .modal-header .modal-title{color: #007bff;}
+.modal .modal-content .modal-header button{
+    color: #007bff;
+    font-weight: bold;
+    font-size: 40px;
+}
+.modal .modal-content .modal-body{
+    color: #007bff;
+}
+.modal .modal-content .modal-footer{}
+.modal .modal-content .modal-footer button{
+    background-color: #007bff;
+    border:  1px solid #007bff;
+    color: #fff;
+    font-weight: bold;
+    opacity: 1;
+    width: 96px;
+    height: 38px;
+}

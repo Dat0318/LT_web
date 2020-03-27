@@ -1,0 +1,33 @@
+body{
+	background-image: url("../image/employee/background.jpg");
+	background-repeat: no-repeat;
+}
+.login{
+    width: 350px;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+.login .form-group label{
+    color: #FFF;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.login .form-group label.form-check-label{
+	font-size: 12px;
+}
+.login .form-group{
+}
+.login .form-group .btn{
+	margin: 0px 110px;
+}
+.login .form-group input{
+	
+}
+.login .form-group .item{
+	color: #111;
+}
+.login .form-group:hover .item{
+/* border-radius: 3px; */
+font-size: 20px;
+}

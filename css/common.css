@@ -1,0 +1,50 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+}
+img{
+	width: 100%;
+}
+/*.holder{
+	max-width: 1200px;
+	margin: 0px auto;
+}*/
+.narbar{
+	float: left;
+	width: 20%;
+	padding: 48px 20px 0px 30px;
+}
+.main-content{
+	padding: 0px 30px;
+	float: right;
+	width: 80%;
+	min-height: 500px;
+}
+.clear{
+	display: block;
+	clear: both;
+}
+.clearfix{
+	list-style-type: none;
+	margin-right: 10px;
+}
+.link{
+	text-decoration: none;
+	color: #111;
+}
+/* Pop up */
+.modal{
+	display: block;
+}
+.modal-display{
+	display: none;
+}

@@ -1,0 +1,60 @@
+
+/* Account */
+.list-account{
+}
+.list-account .create-account{
+	margin: 10px;
+	float: right;
+}
+.list-account .create-account::after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+.list-account h2{
+	text-align: center;
+	color: #007bff;
+	border-bottom: 2px solid #007bff;
+}
+.list-account .table-account{
+    width: 100%;
+}
+.list-account .table-account tr{
+    height: 40px;
+    text-align: center;
+}
+.list-account .table-account tr .first{
+	width: 46px;
+}
+.list-account .table-account tr th{
+    width: 115px;
+}
+
+.list-account .table-account tr td{
+    width: 55px;
+}
+.list-account .table-account tr td a{
+    margin: 7px;
+}
+/* Create Account */
+.connect.col-md-4{}
+.connect.col-md-4 h3{
+    font-size: 40px;
+    color: #007bff;
+}
+.connect.col-md-4 ul{}
+.connect.col-md-4 ul li{
+    width: 100%;
+    margin-top: 4px;
+}
+.connect.col-md-4 ul li a{}
+.connect.col-md-4 ul li a i{
+    margin-right: 20px;
+    padding: 8px 8px;
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    background-color: #007bff;
+    border: 2px solid #ab9393;
+    border-radius: 50%;
+}

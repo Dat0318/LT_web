@@ -1,0 +1,51 @@
+
+
+.list-employee{
+}
+.list-employee .create-employee{
+	margin: 10px;
+	float: right;
+}
+.list-employee .create-employee::after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+.list-employee h2{
+	text-align: center;
+	color: #007bff;
+	border-bottom: 2px solid #007bff;
+}
+.list-employee .table-employee{
+    width: 100%;
+}
+.list-employee .table-employee tr{
+    height: 40px;
+    text-align: center;
+}
+.list-employee .table-employee tr .first{
+	width: 46px;
+}
+.list-employee .table-employee tr th{
+    width: 115px;
+}
+.list-employee .table-employee tr th.email{
+	width: 247px;
+}
+.list-employee .table-employee tr th.action{
+}
+.list-employee .table-employee tr td{
+	padding:  4px;
+}
+.list-employee .table-employee tr td img{
+	border-radius: 6px;
+}
+.list-employee .table-employee tr td .avata{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+}
+.list-employee .table-employee tr td a{
+    margin: 7px;
+}

@@ -1,0 +1,54 @@
+.narbar-content{
+    width: 100%;
+}
+.narbar-content .clearfix{}
+.narbar-content li{
+	display: flex;
+	font-weight: bold;
+	font-size: 18px;
+	background: #007bff;
+	color: #fff;
+	margin: 10px 0px;
+	padding-left: 10px;
+	border: 1px solid #007bff;
+	border-radius: 17px;
+}
+/*User infor*/
+.narbar-content .infor-user{}
+.narbar-content .infor-user img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-left: 30px;
+}
+.narbar-content .infor-user img::before{
+	content: " ";
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #111;
+}
+.narbar-content .infor-user{
+    float: right;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/*Funtion List*/
+.narbar-content li a{
+	color: #fff;
+}
+.narbar-content li i{
+	margin-right: 20px;
+	margin-top: 4px;
+}
+.narbar-content li a i{
+	margin-right: 20px;
+}
+.narbar-content .narbar-account, .narbar-content .narbar-address{
+}
+.narbar-content .sub-narbar-account, .narbar-content .sub-narbar-address{
+	display: none;
+	margin-left: 15px;
+}

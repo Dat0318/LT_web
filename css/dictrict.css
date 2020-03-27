@@ -1,0 +1,38 @@
+
+
+.list-district{
+}
+.list-district .create-district{
+	margin: 10px;
+	float: right;
+}
+.list-district .create-district::after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+.list-district h2{
+	text-align: center;
+	color: #007bff;
+	border-bottom: 2px solid #007bff;
+}
+.list-district .table-district{
+    width: 100%;
+}
+.list-district .table-district tr{
+    height: 40px;
+    text-align: center;
+}
+.list-district .table-district tr .first{
+	width: 46px;
+}
+.list-district .table-district tr th{
+    width: 115px;
+}
+
+.list-district .table-district tr td{
+    width: 55px;
+}
+.list-district .table-district tr td a{
+    margin: 7px;
+}
